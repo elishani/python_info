@@ -1,0 +1,31 @@
+Mutable
+print(id(result)
+
+print("mississppi".count("iss")  # show 2
+print("mississppi".count("issi")  # show 1
+
+for part in parts:
+  print ("{0}: {1}".format(parts.index(part) + 1, part))
+  
+  enumerate
+for number in enumerate(parts):
+  print ("{0}: {1}".format(number + 1, part))
+  
+ for index, character in enumerate("abcdefgh"):
+  print(index, character)
+  
+  available_parts = [ "computer", "monitor", keyboard", mouse"]
+  valid_choices = [str(i) for i in range(1, len(available_parts) + 1)]
+  print(valid_choices)
+  
+  Same as 
+  
+   valid_choices = []
+   for i in range(1, len(available_parts) + 1):
+    valid_choices.append(str(1))
+  
+  List
+  a = [1, 6, 5, 3, 4]
+  a.sort(reverse=True)
+  
+  Built-in Functions
