@@ -29,3 +29,93 @@ for number in enumerate(parts):
   a.sort(reverse=True)
   
   Built-in Functions
+
+sorted_numbers = sorted(numbers)
+numbers.sort()
+
+# create new list
+missing_letter = sorted("The quick btown fox jumped over the lazy dog")
+print(missing_letter)
+
+missing_letter = sorted("The quick btown fox jumped over the lazy dog", key=str.casefold)
+print(missing_letter)
+
+names = [ "John", "terry", "eric" "Terry", "michael"]
+names.sort(key=str.casefold)
+print(names)
+
+#convert to number
+digits = list("43295617")
+print(digits)
+
+more_numbers = list(numbers)
+print(numbers is more_numbers)  # False
+print(numbers == more_numbers)  # True
+
+more_numbers = numbers[:]  # other way to copy list
+more_numbers = numbers.copy()  # other way to copy list
+
+# Replacing slice 
+computer _parts[3:] = ["trackball]
+
+# Option 1
+
+data = [ 4, 5, 104, 105, 350, 360]
+min_valid = 100
+max_valid = 200
+for index, value in enumerate(data):
+  if (value < min_valid) or (value > max_valid):
+    del data[index]
+    index -= 1
+ 
+ # Option 2
+ 
+data = [ 4, 5, 104, 105, 350, 360]
+min_valid = 100
+max_valid = 200
+stop = 0
+for index, value in enumerate(data):
+  if value >=  min_valid:
+    stop = index
+    break
+ del data[:stop]
+ print(data)
+ 
+ start = 0
+ for index in range(len(data) - 1 , - 1 - 1):
+  if data[index] <= max_valid:
+    start = index + 1 
+    break
+del data[start:]
+print(data)
+ 
+ for index in range(len(data) - 1 , - 1 - 1):
+  if data[index] <= max_valid or data[index] > max_valid:
+    print(index, data)
+    del data[index]
+print(data) 
+
+#Revers order 
+for index , value in enumertate(reversed(data)):
+  print(index, value)
+  print(data)
+  
+top_idex = len(data) - 1
+for index, value in enumertate(reversed(data)):
+  if value < min_valid or value > max_valid:
+    print(top_index - index, value)
+    del data[top_index - index]
+print(data)
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
