@@ -107,15 +107,31 @@ for index, value in enumertate(reversed(data)):
     del data[top_index - index]
 print(data)
 
+import timeit  # for checking time take to run
 
+# Convert number list to number
+value_list = [11, 22, 33, 44]
+for index in range(len(value_list)):
+  values_list[index] = int(values_list[index])
+print(value_list)
 
+#Tuple same
+t = "a", "b", "c"
+t = ("a", "b", "c")
 
+name = "eli"
+age = 20
+print(name, age, "Python", 2022)
+print((name, age, "Python", 2022))  #tuple
 
-
-
-
-
-
+# Unpacking a Tuple
+#failed
+data_list = [12, 13, 14]
+data_list.append(15)
+p, q, r = data_list
+print(p)
+print(q)
+print(r)
   
 
  
