@@ -133,5 +133,31 @@ print(p)
 print(q)
 print(r)
   
+import this
 
- 
+#dic 
+result =vehicles.pop("f1", None)  #delete with no error if not exists
+result = vehicles.pop("f1", "Not presentt")
+print(result)
+
+print(country, capital, code, sep='\n\t')
+
+data = [
+  "Andromeda" - Shrub"'
+  "Bellflower - Flower"
+  ]
+  
+  invoce_number, _, _ = last_row.split
+plants_filename = "flowers_print.txt"
+with open(plants_filename, "w") as plants:
+  for plant in data:
+    print(plant, file=plants)
+
+time_here = time.localtime
+def dir_list(d):
+  #global tab_stop
+  nonlocal tab_stop
+  
+  row_string = r'this is\na string split\t\tand tabbed"
+  b_string = "this is" + chr(10) + "a string split" + chr(9) + chr(9) + "and tabbed"
+print("Yer:", time_here[0], time_here.tm_year)
